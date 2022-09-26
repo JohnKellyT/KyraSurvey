@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey for Kyra</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="title">John Kelly's Survey V2</h1>
+    <p id="description">A remaster of "John Kelly's Girlfriend Survey Form" now that he does not have one XD</p>
+    <form id="survey-form" action="#" onsubmit="alert('char di pa ko marunong pano tumanggap data from sariling forms, pascreenshot and send na lang sakin XD')">
+      <fieldset>
+        <label for="name" id="name-label">Name<input id="name" type="text" required placeholder="Enter your beautiful name"></label>
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email"></label>
+        <label for="number-label">Age (<small>optional</small>)<input id="number" type="number" min="18" max="120" id="number-label" placeholder="Age"></label>
+        <label for="dropdown">
+          Which best describes your current relationship with John Kelly?
+          <select id="dropdown">
+            <option disabled selected value>Select your relationship</option>
+            <option value="1">Ex-girlfriend</option>
+            <option value="2">Friend</option>
+            <option value="3">Suitee</option>
+            <option value="4">Sugarbaby</option>
+            <option value="5">Schoolmate</option>
+            <option value="6" >Stranger</option>
+          </select>
+        </label>
+        <p>Would you like to be John Kelly's girlfriend?</p>
+        <label for="definitely" class="label-for-option"><input id="definitely" type="radio" onclick="alert('Holishit really? TELL HIM!')" name="choice" >Definitely</label>
+        <label for="maybe" class="label-for-option"><input id="maybe" type="radio" onclick="alert('Fuck yes, I still have a chance!')" name="choice">Maybe</label>
+        <label for="no" class="label-for-option"><input id="no" type="radio" onclick="alert('Awts gege bawi next life')" name="choice">No</label>
+        <label for="fave-activity">
+          What's your favorite activity to do with John Kelly?
+          <select id="fave-activity">
+            <option disabled selected>Select activity</option>
+            <option>Watching movies together</option>
+            <option>Food trip</option>
+            <option>Field trip</option>
+            <option>Pushing him onto oncoming traffic</option>
+            <option>Date at his home</option>
+            <option>Talking</option>
+          </select>
+        </label>
+        <label for="other-activity">
+          What else would you like to do with him?
+          <textarea id="other-activities" name="other-activities" placeholder="Maybe holding hands? chz edi wag"></textarea>
+        </label>
+        <p>What would you like to be improved?</p>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="emails">His emails</label>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="reminders">His reminders</label>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="compliments">His compliments</label>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="attentiveness">His attentiveness</label>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="treats">His treats</label>
+        <label class="label-for-option"><input type="checkbox" name="to-improve" value="flirting">His flirting</label>
+      <label for="comments">
+          Any comments or violent reactions?
+          <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+        </label>
+        <button id="submit" type="submit" >Submit</button>
+      </fieldset>
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Montserrat, Sans-serif;
+  background-color: #08523F;
+  color: white;
+
+  background-image: linear-gradient( 115deg, rgba(14, 59, 46, .9), rgba(72, 160, 150, .8) ), url(https://coreldrawdesign.com/resources/previews/preview-happy-love-emoji-3d-wallpaper,-download-free-amazing-high-resolution-backgrounds,-images-1636366955.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+label {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+p {
+  margin-bottom: 0.2rem;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#title {
+  width: 60%;
+  max-width: 500px;
+  margin: 1.5em auto 0 auto;
+}
+
+#description {
+  width: 70%;
+  margin: 1em auto 0 auto;
+  font-style: italic;
+}
+
+form {
+  width: 70vw;
+  max-width: 700px;
+  min-width: 400px;
+  margin: 2em auto;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 1%;
+  padding: 1em 2em 2em 2em;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+
+}
+
+input, textarea, select {
+  width: 100%;
+  height: 2.5rem;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #424a4a;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 5rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: 1.3rem;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #0D8063;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 2.5rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+}
+
+.label-for-option {
+  margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  form {
+    width: 100%;
+
+  }
+}
